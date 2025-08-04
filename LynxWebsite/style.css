@@ -1,0 +1,57 @@
+/* Hero Section */
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/hero-bg.jpg') center/cover no-repeat;
+    height: 90vh;
+}
+
+
+/* WhatsApp Floating Button */
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    z-index: 999;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+}
+
+
+/* Dark Mode Styles */
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar,
+.dark-mode footer {
+    background-color: #000 !important;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.dark-mode .modal-content {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.dark-mode .table {
+    color: #fff;
+}
+
+.dark-mode .table th {
+    background-color: #333 !important;
+}
+
+.dark-mode .btn-primary {
+    background-color: #0d6efd;
+}
